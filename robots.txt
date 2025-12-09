@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://geicoguide.github.io/geico-bill-payment/sitemap.xml
