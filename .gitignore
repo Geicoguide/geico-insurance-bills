@@ -1,0 +1,27 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment & secrets
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Node / future-proof (safe even if unused)
+node_modules/
+
+# Editor / IDE settings
+.vscode/
+.idea/
+
+# System caches
+*.cache
